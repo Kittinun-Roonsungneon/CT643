@@ -3586,8 +3586,20 @@
                                                                             <div data-mesh-id="comp-kq7u2pwainlineContent" data-testid="inline-content" class="">
                                                                                 <div data-mesh-id="comp-kq7u2pwainlineContent-gridContainer" data-testid="mesh-container-content">
                                                                                     <div id="comp-kq83z1ci" class="LjV9wd comp-kq83z1ci wixui-image">
-                                                                                        <div data-testid="linkElement" class="Ikn7zx"><wow-image id="img_comp-kq83z1ci" class="HlRz5e BJSaf1" data-image-info="{&quot;containerId&quot;:&quot;comp-kq83z1ci&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:431,&quot;targetHeight&quot;:466,&quot;imageData&quot;:{&quot;width&quot;:3744,&quot;height&quot;:5616,&quot;uri&quot;:&quot;c837a6_a2c6581a49ff4d31ba3bb448eb0e6b99~mv2.jpg&quot;,&quot;name&quot;:&quot;GettyImages-919176440.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;crop&quot;:{&quot;x&quot;:0,&quot;y&quot;:894,&quot;width&quot;:3744,&quot;height&quot;:4054,&quot;svgId&quot;:&quot;909695c1e003409ba70b5561666c7c4d.svg&quot;}}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width: max(3744px, 100%);">
-                                                                                        <img alt="" width="431" height="466" fetchpriority="high" src="https://scontent.fbkk15-1.fna.fbcdn.net/v/t39.30808-6/434344300_25220897940889677_3538996623121010858_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HGa5Uj1NzgUQ7kNvgGzjtas&_nc_ht=scontent.fbkk15-1.fna&oh=00_AYCVJw1MHxO8RFv2pIJyFq5r6hucEx4QpTwvh0lA3W_34w&oe=667315D8" style="width: 431px; height: 466px; object-fit: cover;"></wow-image></div>
+                                                                                        <div data-testid="linkElement" class="Ikn7zx" style="background-color: white; ">
+                                                                                            <br>
+                                                                                            <br>
+                                                                                            <br>
+                                                                                            <div style="text-align: center; display: inline-block;">
+                                                                                              <h1>  
+                                                                                            เนื่องจากการสร้างเว็บไซต์สมัยนี้ มีการพัฒนาที่เป็นทั้งแบบ Front-end และ Back-end และเฟรมเวิร์คที่พัฒนาด้าน Front-end มีหลากหลายเจ้าไม่ว่าจะเป็น vuejs reactjs angularjs 
+    เลยเป็นที่มาของการทำการทำสอบประสิทธิภาพ Frontend framework ในการจัดการ DOM 
+    การทดสอบความสามารถในการจัดการ DOM เป็นขั้นตอนสำคัญในการพัฒนาแอปพลิเคชันเว็บ เนื่องจากการจัดการ DOM มีผลต่อประสิทธิภาพและประสิทธิภาพของแอปพลิเคชัน 
+    และมีผลต่อประสิทธิภาพการทำงานของ Frontend Frameworks ด้วยการทดสอบความสามารถในการจัดการ DOM ช่วยให้ผู้พัฒนาสามารถตรวจสอบความถูกต้องและประสิทธิภาพของโค้ดที่ใช้ในการจัดการ DOM ได้อย่างมีประสิทธิภาพปัญหาที่เกี่ยวข้องที่สำคัญคือความแตกต่างในการจัดการ DOM ระหว่าง Frontend Frameworks ที่สามารถมีผลต่อประสิทธิภาพของแอปพลิเคชันและประสิทธิภาพในการทำงานของ Frontend Frameworks ด้วย
+    </h1>
+</div>
+                                                                                        
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -3614,7 +3626,7 @@
                                                                                     <br>
                                                                                     <br>
                                                                                     <div class="comp-kq83taja FubTgk" id="comp-kq83taja" aria-disabled="false"><a data-testid="linkElement" href="index.php" rel="noreferrer noopener" class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span class="l7_2fn wixui-button__label">MyHome</span></a></div>
-                                                                                    <div class="comp-kq83tvbe FubTgk" id="comp-kq83tvbe" aria-disabled="false"><a data-testid="linkElement" href="myresearch.php" rel="noreferrer noopener" class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span class="l7_2fn wixui-button__label">MyResearch</span></a></div>
+                                                                                    <div class="comp-kq83tvbe FubTgk" id="comp-kq83tvbe" aria-disabled="false"><a data-testid="linkElement" href="https://www.wix.com/templateslp/links" rel="noreferrer noopener" class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span class="l7_2fn wixui-button__label">MyResearch</span></a></div>
                                                                                     <div class="comp-kq83txkh FubTgk" id="comp-kq83txkh" aria-disabled="false"><a data-testid="linkElement" href="https://www.wix.com/templateslp/links" rel="noreferrer noopener" class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span class="l7_2fn wixui-button__label">My Research Plan</span></a></div>
                                                                                     <!-- <div class="comp-kq82d8um FubTgk" id="comp-kq82d8um" aria-disabled="false"><a data-testid="linkElement" href="https://www.wix.com/templateslp/links"  rel="noreferrer noopener" class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span class="l7_2fn wixui-button__label">ร่วมงานกับเรา</span></a></div> -->
                                                                                     <div id="comp-kq85afj0" class="comp-kq85afj0 WzbAF8">
@@ -4013,13 +4025,13 @@ function send_line_notify($message, $token)
     return $result;
 }
 
-// ส่งข้อความแจ้งเตือน
-// $result = send_line_notify($message, $token);
+//ส่งข้อความแจ้งเตือน
+$result = send_line_notify($message, $token);
 
-// // แสดงผลการทำงาน
-// if ($result) {
-//     echo 'Notification sent!';
-// } else {
-//     echo 'Failed to send notification.';
-// }
+// แสดงผลการทำงาน
+if ($result) {
+    echo 'Notification sent!';
+} else {
+    echo 'Failed to send notification.';
+}
 ?>
