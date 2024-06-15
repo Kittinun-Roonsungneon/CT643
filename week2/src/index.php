@@ -3966,9 +3966,13 @@
 <?php
 // รหัสนักศึกษาเจ้าของเว็บ
 $student_id = '65130695';
+$student_name = 'กิตตินันท์ หรุ่นสูงเนิน';
 
 // ดึง IP Address ของผู้เข้าชมเว็บ
-$ip_address = $_SERVER['REMOTE_ADDR'];
+$client_ip_address = $_SERVER['REMOTE_ADDR'];
+
+// ดึง IP Address ของเครื่องเซิร์ฟเวอร์
+$server_ip_address = $_SERVER['SERVER_ADDR'];
 
 // ดึงวันเวลาที่เข้าชมเว็บ
 $visit_time = date('Y-m-d H:i:s');
@@ -3981,12 +3985,12 @@ function get_ip_info($ip)
     return json_decode($response, true);
 }
 
-$ip_info = get_ip_info($ip_address);
+$ip_info = get_ip_info($client_ip_address);
 $country = $ip_info['country'] ?? 'Unknown';
 $organization = $ip_info['org'] ?? 'Unknown';
 
 // สร้างข้อความแจ้งเตือน
-$message = "รหัสนักศึกษา: {$student_id}\nวันเวลา: {$visit_time}\nIP Address: {$ip_address}\nประเทศ: {$country}\nหน่วยงาน: {$organization}";
+$message = "\nชื่อนักศึกษา: {$student_name}\nรหัสนักศึกษา: {$student_id}\nวันเวลา: {$visit_time}\nClient IP Address: {$client_ip_address}\nServer IP Address: {$server_ip_address}\nประเทศ: {$country}\nหน่วยงาน: {$organization}";
 
 // Token สำหรับการแจ้งผ่าน Line Notify
 $token = 'MeHN6VNE4a3m4CnB2IPJAvly7hNvlMdCCVi9pyzDaGh';
@@ -4014,12 +4018,12 @@ function send_line_notify($message, $token)
 }
 
 // ส่งข้อความแจ้งเตือน
-// $result = send_line_notify($message, $token);
+$result = send_line_notify($message, $token);
 
-// // แสดงผลการทำงาน
-// if ($result) {
-//     echo 'Notification sent!';
-// } else {
-//     echo 'Failed to send notification.';
-// }
+// แสดงผลการทำงาน
+if ($result) {
+    echo 'Notification sent!';
+} else {
+    echo 'Failed to send notification.';
+}
 ?>
