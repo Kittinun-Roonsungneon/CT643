@@ -30,15 +30,15 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: laravellogin
-      MYSQL_ROOT_PASSWORD: 12345678
-      MYSQL_PASSWORD: 12345678
-      MYSQL_USER: laravel
+      MYSQL_PASSWORD:
+      MYSQL_USER: root
     volumes:
       - dbdata:/var/lib/mysql/
     networks:
       - laravel
     ports:
-      - "3306:3306"  # เพิ่มบรรทัดนี้
+      - "3306:3306"
+
 networks:
   laravel:
     driver: bridge
