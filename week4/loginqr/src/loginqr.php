@@ -6,7 +6,9 @@ include 'jwt.php'; // Include the simple JWT implementation
 
 
 // สร้างข้อความแจ้งเตือน
-$message = "Loginqr code suscess";
+$message = "User Logged in \n
+            Group: PHP / Javascript / MySql \n
+            token: ".$jwt;
 
 // Token สำหรับการแจ้งผ่าน Line Notify
 $token = 'MeHN6VNE4a3m4CnB2IPJAvly7hNvlMdCCVi9pyzDaGh';
