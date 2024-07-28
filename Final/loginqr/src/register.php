@@ -19,7 +19,7 @@
         $hashedPassword = hash('sha256', $password . $salt);
         
         // insert into the database
-        $sql = "INSERT INTO users (uuid, username, password, salt, nameTH, nameEN, studentID) VALUES ('$uuid', '$username', '$hashedPassword', '$salt', '$nameTH', '$nameEN', '$studentID')";
+        $sql = "INSERT INTO employee (uuid, username, password, salt, nameTH, nameEN, studentID) VALUES ('$uuid', '$username', '$hashedPassword', '$salt', '$nameTH', '$nameEN', '$studentID')";
         
         if ($conn->query($sql) === TRUE) {
             echo "Registration successful!";
@@ -29,7 +29,6 @@
     }
     
     $conn->close();
-    ?>
 ?>
 <!DOCTYPE html>
 <html>

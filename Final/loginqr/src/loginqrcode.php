@@ -29,10 +29,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     }
     $rac = isset($headers['RAC']) ? $headers['RAC'] : null;
-    
-    $sql = "UPDATE access_code_log set token_before = '$Token' where access_code = '$rac' ";
-    $conn->query($sql);
-    echo 'success';
+    // echo $Token;
+    $sql = "UPDATE access_code_log set token_before = '$Token' where access_code = '$rac'";
+    // $conn->query($sql);
+    if ($conn->query($sql) === TRUE) {
+        echo "Record updated successfully";
+    } else {
+        echo "Error updating record: " . $conn->error;
+    }
+    echo $sql;
+    // echo 'success';
     exit();
 }
 ?>

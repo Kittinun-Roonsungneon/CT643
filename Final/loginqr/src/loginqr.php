@@ -55,10 +55,11 @@ $randomString = generateRandomString();
 
 
 $RAC =  "CT648".$randomString;
+date_default_timezone_set("Asia/Bangkok");
+$date=date('Y-m-d H:i:s');
+$sql = "INSERT INTO access_code_log (access_code,created_at) values ('$RAC','$date')";
 
-$sql = "INSERT INTO access_code_log (access_code) values ('$RAC')";
 $conn->query($sql);
-
 
 ?>
 
