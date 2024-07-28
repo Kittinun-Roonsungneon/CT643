@@ -6,8 +6,8 @@ include 'jwt.php'; // Include the simple JWT implementation
 
 
 // สร้างข้อความแจ้งเตือน
-$message = "User Logged in \n
-            Group: PHP / Javascript / MySql \n
+$message = "User : 65130695@dpu.ac.th \n
+            loginQR \n
             token: ".$jwt;
 
 // Token สำหรับการแจ้งผ่าน Line Notify

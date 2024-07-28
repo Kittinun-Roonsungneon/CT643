@@ -28,7 +28,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Authorization header is not present.";
         exit();
     }
+
+    // Print out the headers to debug
+    // echo "Received Headers: ";
+    // print_r($headers);
     $rac = isset($headers['RAC']) ? $headers['RAC'] : null;
+
+    if (!$rac) {
+        echo "RAC header is not present.";
+        exit();
+    }
     // echo $Token;
     $sql = "UPDATE access_code_log set token_before = '$Token' where access_code = '$rac'";
     // $conn->query($sql);
@@ -37,7 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo "Error updating record: " . $conn->error;
     }
-    echo $sql;
+    
+    // echo $sql;
     // echo 'success';
     exit();
 }
