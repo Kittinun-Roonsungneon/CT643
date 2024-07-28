@@ -82,11 +82,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $conn->query($sql);
 
             // die();
-            $message = "User Logged in \n
-            Group: PHP / Javascript / MySql \n
+            $message = "User Logged in Web \n
+            Student: 65130695 \n
+            email: 65130695@dpu.ac.th \n
             token: " . $jwt;
             // Redirect with JWT
-            // send_line_notify($message, $token);
+            send_line_notify($message, $token);
 ?>
             <script>
                 localStorage.setItem("token", "<?php echo $jwt; ?>");
